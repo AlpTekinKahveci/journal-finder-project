@@ -157,6 +157,12 @@ After running the notebooks, the terminal recommendation script can be used with
 
 `python src/recommend.py --text "your abstract text here"`
 
+Large files are available in the GitHub Releases section:
+
+https://github.com/AlpTekinKahveci/journal-finder-project/releases/tag/v1.0
+
+Download `journal_finder_large_files.zip` and extract it into the project root directory. After extraction, the `data/` and `models/` folders will contain the required database, generated CSV files, and trained model files.
+
 ## Author
 
 Alp Tekin Kahveci
