@@ -141,6 +141,22 @@ journal-finder-project/
 - KMeans
 - Jupyter Notebook
 
+
+## Important Note About Large Files
+
+Large database, generated dataset, and trained model files are not included in this GitHub repository because of file size limitations.
+
+To reproduce the project:
+
+1. Place `CompSciencePub.sqlite` inside the `data/` folder.
+2. Run `notebooks/01_database_exploration.ipynb`.
+3. Run `notebooks/02_journal_finder_model.ipynb` to generate the trained journal recommendation model.
+4. Run `notebooks/03_topic_clustering.ipynb` to generate topic clustering outputs.
+
+After running the notebooks, the terminal recommendation script can be used with:
+
+`python src/recommend.py --text "your abstract text here"`
+
 ## Author
 
 Alp Tekin Kahveci
