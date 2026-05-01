@@ -33,3 +33,5 @@ models/*.pkl
 
 # Logs
 *.log
+# Release archive
+journal_finder_large_files.zip
