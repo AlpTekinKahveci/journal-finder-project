@@ -1,0 +1,23 @@
+{
+    "method": "TF-IDF + TruncatedSVD + KMeans",
+    "n_components": 100,
+    "final_k": 10,
+    "rows_used": 22547,
+    "tfidf_shape": [
+        22547,
+        60000
+    ],
+    "svd_explained_variance_ratio": 0.09762981040816153,
+    "cluster_names": {
+        "0": "Software Engineering, HCI and Information Systems",
+        "1": "Computer Architecture, Cloud and High Performance Computing",
+        "2": "Information Systems, Library Science and Technology Management",
+        "3": "Formal Methods, Logic and Programming Languages",
+        "4": "Operations Research and Optimization",
+        "5": "Bioinformatics and Computational Biology",
+        "6": "Wireless Sensor Networks",
+        "7": "Telecommunications and Communication Networks",
+        "8": "Artificial Intelligence, Machine Learning and Computer Vision",
+        "9": "Numerical Modeling, Simulation and Engineering Applications"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "model_name": "TF-IDF + SGDClassifier(log_loss)",
+    "rows_used": 22547,
+    "unique_journals": 402,
+    "min_articles_per_journal": 5,
+    "top1_accuracy": 0.3623059866962306,
+    "top5_accuracy": 0.6616407982261641,
+    "features": "abstract_clean only"
+}
